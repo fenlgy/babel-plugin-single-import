@@ -26,10 +26,10 @@ import { Button,Input } from 'libA';
 import { Button,Input } from 'libB';
 
 // =>
-import Button from 'myLib/libA/components/button'
-import Input from 'myLib/libA/components/input'
+import Button from 'myLib/components/libA/button'
+import Input from 'myLib/components/libA/input'
 
-import Button from 'myLib/libB/lib/button'
-import Input from 'myLib/libB/lib/input'
+import Button from 'myLib/lib/libB/button'
+import Input from 'myLib/lib/libB/input'
 
 ```

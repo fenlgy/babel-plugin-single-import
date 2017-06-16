@@ -44,7 +44,7 @@ class Plugin extends APlugin {
         : this.camel2DashComponentName
           ? camel2Dash(methodName)
           : methodName;
-      const path = winPath(join(preDirectory, this.libraryName, libraryDirectory, transformedMethodName));
+      const path = winPath(join(preDirectory, libraryDirectory, this.libraryName,  transformedMethodName));
       this.selectedMethods[methodName] = file.addImport(path, 'default');
       if (style === true) {
         file.addImport(`${path}/style`, 'style');
