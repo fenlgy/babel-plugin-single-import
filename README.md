@@ -3,7 +3,7 @@
 
 ``` javascript
 import { Button,Input } from 'libName';
-// =>
+// output =>
 import Button from 'libName/lib/button'
 import Input from 'libName/lib/input'
 ```
@@ -25,7 +25,7 @@ import Input from 'libName/lib/input'
 import { Button,Input } from 'libA';
 import { Button,Input } from 'libB';
 
-// =>
+// output =>
 import Button from 'myLib/components/libA/button'
 import Input from 'myLib/components/libA/input'
 
