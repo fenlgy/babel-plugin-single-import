@@ -9,7 +9,7 @@ import Input from 'libName/lib/input'
 ```
 
 ## Usage
-```
+``` javascript
 //.babelrc option
 {
   "plugins": [
